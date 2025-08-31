@@ -1,0 +1,53 @@
+.cabecalho{
+    background-color: rgb(255, 6, 27);
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.titulo-app {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subtitulo-app{
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu-item{
+    margin-right: 4px;
+    margin-left: 4px;
+    font-weight: bold;
+
+}
+
+.menu-item a{
+    color: white;
+}
+
+.ativo{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cursor .item{
+    cursor: pointer;
+}
+
+.botao-edicao:hover{
+    cursor: pointer;
+}
